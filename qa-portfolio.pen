@@ -1,0 +1,1556 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "tZhGH",
+      "x": 0,
+      "y": 0,
+      "name": "NavLink Component",
+      "reusable": true,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "FlXA5",
+          "name": "Nav Label",
+          "fill": "$text-body",
+          "content": "NAV LINK",
+          "fontFamily": "$font-mono",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "yZQoO",
+      "x": 138,
+      "y": 0,
+      "name": "SkillPill Component",
+      "reusable": true,
+      "fill": "$bg-card",
+      "cornerRadius": 100,
+      "stroke": "$border-default",
+      "strokeWidth": 1,
+      "padding": [
+        8,
+        16
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "X0X55S",
+          "name": "Pill Label",
+          "fill": "$text-body",
+          "content": "SKILL",
+          "fontFamily": "$font-mono",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "byWuf",
+      "x": 0,
+      "y": 98,
+      "name": "ExperienceCard Component",
+      "reusable": true,
+      "width": 600,
+      "fill": "$bg-card",
+      "cornerRadius": 14,
+      "stroke": "$border-default",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "CLMFA",
+          "name": "Job Title",
+          "fill": "$text-heading",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Job Title",
+          "fontFamily": "$font-heading",
+          "fontSize": 20,
+          "fontWeight": "bold"
+        },
+        {
+          "type": "frame",
+          "id": "XtKDv",
+          "name": "Company Row",
+          "width": "fill_container",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "OYCD3",
+              "name": "Company",
+              "fill": "$text-body",
+              "content": "Company",
+              "fontFamily": "$font-heading",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "o9elb",
+              "name": "Date",
+              "fill": "$text-body",
+              "content": "Date Range",
+              "fontFamily": "$font-mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Jplcu",
+          "name": "Description",
+          "fill": "$text-body",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Description bullet points go here.",
+          "lineHeight": 1.6,
+          "fontFamily": "$font-heading",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "I2cxJH",
+      "x": 680,
+      "y": 98,
+      "name": "ContactItem Component",
+      "reusable": true,
+      "gap": 12,
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "icon",
+          "id": "HyDoT",
+          "name": "Contact Icon",
+          "width": 18,
+          "height": 18,
+          "icon": "mail",
+          "library": "lucide",
+          "fill": "$accent-violet"
+        },
+        {
+          "type": "text",
+          "id": "jkUsa",
+          "name": "Contact Text",
+          "fill": "$text-body",
+          "content": "contact@example.com",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "MkeRu",
+      "x": 0,
+      "y": 377,
+      "name": "Portfolio Page",
+      "clip": true,
+      "width": 1440,
+      "fill": [
+        "$bg-primary",
+        {
+          "type": "shader",
+          "enabled": true,
+          "url": "dot-grid.glsl"
+        }
+      ],
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "KYXQ8",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$bg-primary",
+          "stroke": "$border-default",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "effect": {
+            "type": "background_blur",
+            "radius": 20
+          },
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WBEoT",
+              "name": "Brand",
+              "fill": "$text-heading",
+              "content": "BELLO ABDULRAFIU",
+              "fontFamily": "$font-mono",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "frame",
+              "id": "gyV60",
+              "name": "Nav Links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "rEZat",
+                  "type": "ref",
+                  "ref": "tZhGH",
+                  "name": "ABOUT",
+                  "descendants": {
+                    "FlXA5": {
+                      "content": "ABOUT"
+                    }
+                  }
+                },
+                {
+                  "id": "mPInv",
+                  "type": "ref",
+                  "ref": "tZhGH",
+                  "name": "EXPERIENCE",
+                  "descendants": {
+                    "FlXA5": {
+                      "content": "EXPERIENCE"
+                    }
+                  }
+                },
+                {
+                  "id": "TMgrB",
+                  "type": "ref",
+                  "ref": "tZhGH",
+                  "name": "SKILLS",
+                  "descendants": {
+                    "FlXA5": {
+                      "content": "SKILLS"
+                    }
+                  }
+                },
+                {
+                  "id": "C2XF3U",
+                  "type": "ref",
+                  "ref": "tZhGH",
+                  "name": "EDUCATION & CERTS",
+                  "descendants": {
+                    "FlXA5": {
+                      "content": "EDUCATION & CERTS"
+                    }
+                  }
+                },
+                {
+                  "id": "tO8uX",
+                  "type": "ref",
+                  "ref": "tZhGH",
+                  "name": "CONTACT",
+                  "descendants": {
+                    "FlXA5": {
+                      "content": "CONTACT"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H3Llnv",
+          "name": "Hero & About",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "JFAng",
+              "name": "Headline Line 1",
+              "fill": "$text-heading",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Hi, I'm Bello Abdulrafiu —",
+              "fontFamily": "$font-heading",
+              "fontSize": 44,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "nWfcn",
+              "name": "Headline Line 2",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$accent-violet",
+                    "position": 0
+                  },
+                  {
+                    "color": "$accent-blue",
+                    "position": 1
+                  }
+                ]
+              },
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Senior QA Engineer & SDET",
+              "fontFamily": "$font-heading",
+              "fontSize": 44,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "WoPI5",
+              "name": "Bio Wrapper",
+              "width": 640,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O9AO0v",
+                  "name": "Bio",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Quality Assurance Engineer with 5+ years of experience specializing in building scalable test automation frameworks for Web, Mobile, and API platforms. Passionate about software reliability, CI/CD integration, and quality best practices across Healthcare, EdTech, and FinTech domains.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bi2Qq",
+              "name": "Location Pill",
+              "fill": "$bg-card",
+              "cornerRadius": 100,
+              "stroke": "$border-default",
+              "strokeWidth": 1,
+              "padding": [
+                6,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pCvb4",
+                  "name": "Location Text",
+                  "fill": "$text-body",
+                  "content": "Based in Abuja, Nigeria",
+                  "fontFamily": "$font-mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MdVOF",
+              "name": "Buttons Row",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y37f5",
+                  "name": "Primary Button",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-violet",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-blue",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 8,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#7C5CFC1F",
+                    "blur": 24
+                  },
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PHubE",
+                      "name": "Primary Label",
+                      "fill": "#FFFFFF",
+                      "content": "Get in Touch",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ot3CI",
+                  "name": "Secondary Button",
+                  "cornerRadius": 8,
+                  "stroke": "$border-hover",
+                  "strokeWidth": 1,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eeJnT",
+                      "name": "Secondary Label",
+                      "fill": "$accent-violet",
+                      "content": "Download Resume",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vhTAr",
+          "name": "Experience Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "D8lLI",
+              "name": "Section Header",
+              "fill": "$accent-violet",
+              "content": "EXPERIENCE",
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "PR6jG",
+              "name": "Card Stack",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "LTvVo",
+                  "type": "ref",
+                  "ref": "byWuf",
+                  "name": "Senior Quality Assurance Engineer",
+                  "width": "fill_container",
+                  "descendants": {
+                    "CLMFA": {
+                      "content": "Senior Quality Assurance Engineer"
+                    },
+                    "OYCD3": {
+                      "content": "The uLesson Group"
+                    },
+                    "o9elb": {
+                      "content": "Jul 2023 — Present"
+                    },
+                    "Jplcu": {
+                      "content": "• Lead automated test framework development for web/mobile using Cypress, Playwright, and Appium.\n• Conduct API testing, integrate automated suites into CI/CD pipelines, and implement performance strategies (JMeter, k6).\n• Mentor junior QA engineers on automation best practices."
+                    }
+                  }
+                },
+                {
+                  "id": "sTEos",
+                  "type": "ref",
+                  "ref": "byWuf",
+                  "name": "Software QA Engineer (SDET)",
+                  "width": "fill_container",
+                  "descendants": {
+                    "CLMFA": {
+                      "content": "Software QA Engineer (SDET)"
+                    },
+                    "OYCD3": {
+                      "content": "The uLesson Group"
+                    },
+                    "o9elb": {
+                      "content": "Sep 2022 — Aug 2023"
+                    },
+                    "Jplcu": {
+                      "content": "• Built end-to-end automation frameworks using Selenium, Cypress, and Appium.\n• Reduced regression testing time by 30% by integrating automated test suites into GitHub Actions and LambdaTest."
+                    }
+                  }
+                },
+                {
+                  "id": "Q6QBQ",
+                  "type": "ref",
+                  "ref": "byWuf",
+                  "name": "Software QA Engineer",
+                  "width": "fill_container",
+                  "descendants": {
+                    "CLMFA": {
+                      "content": "Software QA Engineer"
+                    },
+                    "OYCD3": {
+                      "content": "EHA Clinics"
+                    },
+                    "o9elb": {
+                      "content": "Mar 2021 — Aug 2022"
+                    },
+                    "Jplcu": {
+                      "content": "• Conducted manual and automated testing for healthcare software, achieving 95% test coverage.\n• Executed API testing using Postman and automated scripts with JavaScript."
+                    }
+                  }
+                },
+                {
+                  "id": "jt4QV",
+                  "type": "ref",
+                  "ref": "byWuf",
+                  "name": "Quality Assurance Engineer & Intern",
+                  "width": "fill_container",
+                  "descendants": {
+                    "CLMFA": {
+                      "content": "Quality Assurance Engineer & Intern"
+                    },
+                    "OYCD3": {
+                      "content": "eHealth Africa"
+                    },
+                    "o9elb": {
+                      "content": "Sep 2018 — Mar 2021"
+                    },
+                    "Jplcu": {
+                      "content": "• Maintained automated test scripts using Jest, Chai, Webdriver, and Docker in Agile Scrum environments."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RlliM",
+          "name": "Skills Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "Q0K0b",
+              "name": "Section Header",
+              "fill": "$accent-violet",
+              "content": "SKILLS & ARSENAL",
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "y9nKR9",
+              "name": "Automation & Tools Group",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xnJ8z",
+                  "name": "Group Label",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-violet",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-blue",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Automation & Tools",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 15,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "zMj5R",
+                  "name": "Pill Row",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "a6IFE",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Cypress",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Cypress"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Ed1Vw",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Playwright",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Playwright"
+                        }
+                      }
+                    },
+                    {
+                      "id": "TemFt",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Selenium",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Selenium"
+                        }
+                      }
+                    },
+                    {
+                      "id": "nFVLT",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Appium",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Appium"
+                        }
+                      }
+                    },
+                    {
+                      "id": "iMByP",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "WebdriverIO",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "WebdriverIO"
+                        }
+                      }
+                    },
+                    {
+                      "id": "J4HgA",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Postman",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Postman"
+                        }
+                      }
+                    },
+                    {
+                      "id": "es6vQ",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Gherkin",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Gherkin"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UdJCJ",
+              "name": "Languages & APIs Group",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g6bSsU",
+                  "name": "Group Label",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-violet",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-blue",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Languages & APIs",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 15,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "FAIVg",
+                  "name": "Pill Row",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "j8f6S",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "JavaScript",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "JavaScript"
+                        }
+                      }
+                    },
+                    {
+                      "id": "ZjRr0",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Java",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Java"
+                        }
+                      }
+                    },
+                    {
+                      "id": "bLB4c",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "REST APIs",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "REST APIs"
+                        }
+                      }
+                    },
+                    {
+                      "id": "tMbBw",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "REST Assured",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "REST Assured"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nw5B3",
+              "name": "Performance & DevOps Group",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l6PZU",
+                  "name": "Group Label",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-violet",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-blue",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Performance & DevOps",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 15,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "tNyGA",
+                  "name": "Pill Row",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "r9nWgj",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "JMeter",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "JMeter"
+                        }
+                      }
+                    },
+                    {
+                      "id": "M2PVg",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "k6",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "k6"
+                        }
+                      }
+                    },
+                    {
+                      "id": "v2z1d",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "GitHub Actions",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "GitHub Actions"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Hoo71",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Docker",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Docker"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R65mg0",
+              "name": "Test Management & DBs Group",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Toj2a",
+                  "name": "Group Label",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-violet",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-blue",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "content": "Test Management & DBs",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 15,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "kOgpe",
+                  "name": "Pill Row",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "id": "AL2Di",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Jira",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Jira"
+                        }
+                      }
+                    },
+                    {
+                      "id": "bxyzQ",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Xray",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Xray"
+                        }
+                      }
+                    },
+                    {
+                      "id": "BSifZ",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "SQL",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "SQL"
+                        }
+                      }
+                    },
+                    {
+                      "id": "kSOHK",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "NoSQL",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "NoSQL"
+                        }
+                      }
+                    },
+                    {
+                      "id": "s26jd",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Google Sheets",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Google Sheets"
+                        }
+                      }
+                    },
+                    {
+                      "id": "B1JTA",
+                      "type": "ref",
+                      "ref": "yZQoO",
+                      "name": "Agile (Scrum)",
+                      "descendants": {
+                        "X0X55S": {
+                          "content": "Agile (Scrum)"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mQos3",
+          "name": "Certs & Education Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "BxASv",
+              "name": "Section Header",
+              "fill": "$accent-violet",
+              "content": "CERTIFICATIONS, DOMAINS & EDUCATION",
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "JF3ln",
+              "name": "Three Columns",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JyQ1y",
+                  "name": "Certifications Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L9PzWR",
+                      "name": "Col1 Header",
+                      "fill": "$text-heading",
+                      "content": "Certifications",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jh0Cc",
+                      "name": "ISTQB Title",
+                      "fill": "$text-heading",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ASTQB / ISTQB (USA): Certified Tester Foundation Level (CTFL)",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-heading",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xHJfr",
+                      "name": "Credential ID",
+                      "fill": "$text-body",
+                      "content": "Credential ID: 20-CTFL-00777-USA",
+                      "fontFamily": "$font-mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "oPSst",
+                  "name": "Divider 1",
+                  "fill": "$border-default",
+                  "width": 1,
+                  "height": 200
+                },
+                {
+                  "type": "frame",
+                  "id": "hfg3a",
+                  "name": "Domain Focus Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e3dRjp",
+                      "name": "Col2 Header",
+                      "fill": "$text-heading",
+                      "content": "Domain Focus",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BTqiW",
+                      "name": "Healthcare Pill",
+                      "fill": "$bg-card",
+                      "cornerRadius": 100,
+                      "stroke": "$accent-teal",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RoddF",
+                          "name": "Healthcare Label",
+                          "fill": "$accent-teal",
+                          "content": "Healthcare",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f4kLP",
+                      "name": "Education (EdTech) Pill",
+                      "fill": "$bg-card",
+                      "cornerRadius": 100,
+                      "stroke": "$accent-teal",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vnfRk",
+                          "name": "Education (EdTech) Label",
+                          "fill": "$accent-teal",
+                          "content": "Education (EdTech)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A7q5YC",
+                      "name": "Financial Technology (FinTech) Pill",
+                      "fill": "$bg-card",
+                      "cornerRadius": 100,
+                      "stroke": "$accent-teal",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LspBH",
+                          "name": "Financial Technology (FinTech) Label",
+                          "fill": "$accent-teal",
+                          "content": "Financial Technology (FinTech)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "sKZBp",
+                  "name": "Divider 2",
+                  "fill": "$border-default",
+                  "width": 1,
+                  "height": 200
+                },
+                {
+                  "type": "frame",
+                  "id": "EbFdl",
+                  "name": "Education Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    0,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JHYaM",
+                      "name": "Col3 Header",
+                      "fill": "$text-heading",
+                      "content": "Education",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "axVhi",
+                      "name": "Master in Cyber Security",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q4sRN3",
+                          "name": "Degree",
+                          "fill": "$text-heading",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Master in Cyber Security",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qNW1Y",
+                          "name": "School",
+                          "fill": "$text-body",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "EC-Council University (2026)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e42Yg",
+                      "name": "Bachelor's Degree in Computer Science",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CY1b4",
+                          "name": "Degree",
+                          "fill": "$text-heading",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Bachelor's Degree in Computer Science",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "C5Ed45",
+                          "name": "School",
+                          "fill": "$text-body",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ahmadu Bello University (2013-2016)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DmPzf",
+                      "name": "Diploma in Computer Science",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TJWSh",
+                          "name": "Degree",
+                          "fill": "$text-heading",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Diploma in Computer Science",
+                          "fontFamily": "$font-heading",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pHi19",
+                          "name": "School",
+                          "fill": "$text-body",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ahmadu Bello University (2011-2013)",
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c1tby",
+          "name": "Contact & Footer",
+          "width": "fill_container",
+          "fill": "$bg-footer",
+          "stroke": "$border-default",
+          "strokeWidth": {
+            "top": 1
+          },
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HjZey",
+              "name": "Contact Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 80,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F7aVTP",
+                  "name": "Contact Headline",
+                  "fill": "$text-heading",
+                  "content": "Let's Connect",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 36,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "ucuSL",
+                  "name": "Gradient Underline",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-violet",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-blue",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 80,
+                  "height": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "jG2dL",
+                  "name": "Contact Items",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "zJiVn",
+                      "type": "ref",
+                      "ref": "I2cxJH",
+                      "name": "bellsraafi@gmail.com",
+                      "descendants": {
+                        "HyDoT": {
+                          "icon": "mail"
+                        },
+                        "jkUsa": {
+                          "content": "bellsraafi@gmail.com"
+                        }
+                      }
+                    },
+                    {
+                      "id": "oD2jP",
+                      "type": "ref",
+                      "ref": "I2cxJH",
+                      "name": "+234-806-135-2274",
+                      "descendants": {
+                        "HyDoT": {
+                          "icon": "phone"
+                        },
+                        "jkUsa": {
+                          "content": "+234-806-135-2274"
+                        }
+                      }
+                    },
+                    {
+                      "id": "lKuDQ",
+                      "type": "ref",
+                      "ref": "I2cxJH",
+                      "name": "linkedin.com/in/bello-abdulrafiu",
+                      "descendants": {
+                        "HyDoT": {
+                          "icon": "linkedin"
+                        },
+                        "jkUsa": {
+                          "content": "linkedin.com/in/bello-abdulrafiu"
+                        }
+                      }
+                    },
+                    {
+                      "id": "Rnwxm",
+                      "type": "ref",
+                      "ref": "I2cxJH",
+                      "name": "Abuja, Nigeria",
+                      "descendants": {
+                        "HyDoT": {
+                          "icon": "map-pin"
+                        },
+                        "jkUsa": {
+                          "content": "Abuja, Nigeria"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ThAsm",
+              "name": "Footer Text Wrapper",
+              "width": "fill_container",
+              "layout": "vertical",
+              "padding": [
+                24,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i8Rf9r",
+                  "name": "Copyright",
+                  "fill": "$text-body",
+                  "content": "© 2026 Bello Abdulrafiu. Designed with simplicity and precision.",
+                  "textAlign": "center",
+                  "fontFamily": "$font-heading",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg-primary": {
+      "type": "color",
+      "value": "#0A0A0F"
+    },
+    "bg-section": {
+      "type": "color",
+      "value": "#101018"
+    },
+    "bg-card": {
+      "type": "color",
+      "value": "#15151F"
+    },
+    "bg-footer": {
+      "type": "color",
+      "value": "#08080C"
+    },
+    "border-default": {
+      "type": "color",
+      "value": "#232330"
+    },
+    "border-hover": {
+      "type": "color",
+      "value": "#3A2E5C"
+    },
+    "text-heading": {
+      "type": "color",
+      "value": "#F5F5FA"
+    },
+    "text-body": {
+      "type": "color",
+      "value": "#9CA3AF"
+    },
+    "accent-violet": {
+      "type": "color",
+      "value": "#7C5CFC"
+    },
+    "accent-blue": {
+      "type": "color",
+      "value": "#4F6EF7"
+    },
+    "accent-cyan": {
+      "type": "color",
+      "value": "#22D3EE"
+    },
+    "accent-teal": {
+      "type": "color",
+      "value": "#2DD4BF"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    }
+  },
+  "fileToken": "92afdcda-7241-4125-a065-cc0a7ad15abb"
+}

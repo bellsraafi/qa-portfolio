@@ -1,0 +1,99 @@
+{
+  "name": "Bello Abdulrafiu",
+  "title": "Senior QA Engineer & SDET",
+  "location": "Abuja, Nigeria",
+  "summary": "Quality Assurance Engineer with 5+ years of experience specializing in building scalable test automation frameworks for Web, Mobile, and API platforms. Passionate about software reliability, CI/CD integration, and quality best practices across Healthcare, EdTech, and FinTech domains.",
+  "contact": {
+    "email": "bellsraafi@gmail.com",
+    "phone": "+234-806-135-2274",
+    "linkedin": "linkedin.com/in/bello-abdulrafiu"
+  },
+  "experience": [
+    {
+      "title": "Senior Quality Assurance Engineer",
+      "company": "The uLesson Group",
+      "start": "Jul 2023",
+      "end": "Present",
+      "bullets": [
+        "Lead automated test framework development for web/mobile using Cypress, Playwright, and Appium.",
+        "Conduct API testing, integrate automated suites into CI/CD pipelines, and implement performance strategies (JMeter, k6).",
+        "Mentor junior QA engineers on automation best practices."
+      ]
+    },
+    {
+      "title": "Software QA Engineer (SDET)",
+      "company": "The uLesson Group",
+      "start": "Sep 2022",
+      "end": "Aug 2023",
+      "bullets": [
+        "Built end-to-end automation frameworks using Selenium, Cypress, and Appium.",
+        "Reduced regression testing time by 30% by integrating automated test suites into GitHub Actions and LambdaTest."
+      ]
+    },
+    {
+      "title": "Software QA Engineer",
+      "company": "EHA Clinics",
+      "start": "Mar 2021",
+      "end": "Aug 2022",
+      "bullets": [
+        "Conducted manual and automated testing for healthcare software, achieving 95% test coverage.",
+        "Executed API testing using Postman and automated scripts with JavaScript."
+      ]
+    },
+    {
+      "title": "Quality Assurance Engineer & Intern",
+      "company": "eHealth Africa",
+      "start": "Sep 2018",
+      "end": "Mar 2021",
+      "bullets": [
+        "Maintained automated test scripts using Jest, Chai, Webdriver, and Docker in Agile Scrum environments."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "group": "Automation & Tools",
+      "items": ["Playwright", "Cypress", "Selenium", "Appium", "WebdriverIO", "Postman", "Gherkin", "Maestro"]
+    },
+    {
+      "group": "Languages & APIs",
+      "items": ["JavaScript", "Java", "REST APIs", "REST Assured"]
+    },
+    {
+      "group": "Performance & DevOps",
+      "items": ["JMeter", "k6", "GitHub Actions", "Docker"]
+    },
+    {
+      "group": "Test Management & DBs",
+      "items": ["Jira", "Xray", "SQL", "NoSQL", "Google Sheets", "Agile (Scrum)"]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "ASTQB / ISTQB (USA): Certified Tester Foundation Level (CTFL)",
+      "credential": "Credential ID: 20-CTFL-00777-USA"
+    },
+    {
+      "title": "k6 Performance Testing",
+      "credential": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master in Cyber Security",
+      "school": "EC-Council University",
+      "years": "2026"
+    },
+    {
+      "degree": "Bachelor's Degree in Computer Science",
+      "school": "Ahmadu Bello University",
+      "years": "2013-2016"
+    },
+    {
+      "degree": "Diploma in Computer Science",
+      "school": "Ahmadu Bello University",
+      "years": "2011-2013"
+    }
+  ],
+  "domains": ["Healthcare", "Education (EdTech)", "Financial Technology (FinTech)"]
+}
