@@ -21,9 +21,8 @@ No test framework or test script is present.
 ## Architecture
 
 - The React app lives at the repo **root** (`src/`, `index.html`, `vite.config.js`).
-- `site/` is the original vanilla HTML/CSS/JS implementation kept as the visual-parity reference. **Do not modify it.** The React app must match `site/` visually.
 - Content is data-driven: `src/data/resume.json` and `src/data/tidbits.json` are the single source of truth. Never hardcode copy, jobs, skills, or tidbits in JSX — read from these files.
-- `src/styles.css` was copied verbatim from `site/css/styles.css`; design tokens (colors, fonts, glow) live in its `:root`. Keep it in sync with the reference when the design changes.
+- `src/styles.css` holds the design tokens (colors, fonts, glow) in its `:root`.
 - `src/lib/generateResume.js` lazily loads jsPDF via `await import('jspdf')` and generates the PDF entirely in the browser.
 
 ## Conventions
@@ -34,8 +33,7 @@ No test framework or test script is present.
 
 ## Gotchas
 
-- `.gitignore` excludes `site/`, `docs/`, `dist/`, and `node_modules/`. The reference site and `docs/superpowers/*` plans are **local-only** and never committed.
+- `.gitignore` excludes `dist/` and `node_modules/`.
 - `qa-portfolio.pen` is an encrypted pen.dev design file — read it only via the pencil/pen.dev MCP tools, never with `read`/`grep`.
 - `dot-grid.glsl` is an orphaned shader not imported by the React app.
-- `docs/superpowers/plans/*` are stale in places (they reference React 18 and an `app/` subdirectory); the actual app is React 19 at the root. Trust the current source over those plans.
 - `React.StrictMode` is enabled in `src/main.jsx`.
