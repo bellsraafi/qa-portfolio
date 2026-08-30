@@ -3,7 +3,7 @@ import resume from '../data/resume.json'
 export default function Skills() {
   return (
     <>
-      <h2 className="section-header">SKILLS &amp; ARSENAL</h2>
+      <h2 className="section-header">SKILLS</h2>
       <div className="skills__groups">
         {resume.skills.map((group) => (
           <div className="skill-group" key={group.group}>
