@@ -11,8 +11,8 @@ export default function About() {
     try {
       await downloadResume()
     } catch (err) {
-      console.error('Could not generate resume:', err)
-      alert('Sorry, the resume could not be generated. Please try again.')
+      console.error('Could not download resume:', err)
+      alert('Sorry, the resume could not be downloaded. Please try again.')
     }
     setBusy(false)
   }
@@ -20,8 +20,8 @@ export default function About() {
   return (
     <>
       <h1 className="about__headline">
-        Hi, I'm Bello Abdulrafiu —{' '}
-        <span className="about__headline-gradient">Senior QA Engineer &amp; SDET</span>
+        Hi, I'm {resume.name} —{' '}
+        <span className="about__headline-gradient">{resume.title}</span>
       </h1>
       <p className="about__bio">{resume.summary}</p>
       <div className="about__location">Based in {resume.location}</div>
@@ -34,7 +34,7 @@ export default function About() {
           onClick={handleDownload}
           aria-busy={busy || undefined}
         >
-          {busy ? 'Generating…' : 'Download Resume'}
+          {busy ? 'Downloading…' : 'Download Resume'}
         </a>
       </div>
     </>

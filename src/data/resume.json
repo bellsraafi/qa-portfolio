@@ -1,8 +1,8 @@
 {
   "name": "Bello Abdulrafiu",
-  "title": "Senior QA Engineer & SDET",
+  "title": "Software QA Engineer | Manual and Automation Testing",
   "location": "Abuja, Nigeria",
-  "summary": "Quality Assurance Engineer with 5+ years of experience specializing in building scalable test automation frameworks for Web, Mobile, and API platforms. Passionate about software reliability, CI/CD integration, and quality best practices across Healthcare, EdTech, and FinTech domains.",
+  "summary": "ISTQB Certified Tester with experience in web, mobile, and API testing across EdTech, healthcare, and financial technology. Leads QA for Miva University Exam Portal, combining exploratory and risk-based testing with Playwright automation, CI/CD integration, and release validation. Uses AI agents in spec-driven test workflows and conducts k6 load testing at up to 35,000 virtual users.",
   "contact": {
     "email": "bellsraafi@gmail.com",
     "phone": "+234-806-135-2274",
@@ -15,9 +15,13 @@
       "start": "Jul 2023",
       "end": "Present",
       "bullets": [
-        "Lead automated test framework development for web/mobile using Cypress, Playwright, and Appium.",
-        "Conduct API testing, integrate automated suites into CI/CD pipelines, and implement performance strategies (JMeter, k6).",
-        "Mentor junior QA engineers on automation best practices."
+        "Lead manual, exploratory, regression, and risk-based testing for Miva University Exam Portal; coordinate coverage with Engineering and Product, mentor QA engineers, and support release and hotfix validation.",
+        "Validate authentication, exam eligibility, enrollment mapping, results, and data consistency across Exam Portal, SIS, SSO, Learner Backend, and Tutor Admin.",
+        "Investigate exam-access, permission, audio-capture, and concurrent-session defects using DevTools, Postman, SQL, logs, and monitoring; document reproducible evidence in Jira.",
+        "Test exam integrity through identity/QR verification, Safe Exam Browser (SEB) configuration, camera/audio permissions, and screen/focus monitoring.",
+        "Build Playwright UI/API tests in TypeScript and JavaScript using reusable page objects, fixtures, authentication helpers, parallel execution, and CI/CD.",
+        "Use AI agents to generate, execute, refine, and integrate tests into CI from specifications and test plans; write Maestro Android tests with WireMock backend mocks.",
+        "Execute staged k6 load tests reaching 35,000 virtual users; investigate HTTP errors, timeouts, backend instability, infrastructure constraints, and load-generator limits."
       ]
     },
     {
@@ -26,8 +30,19 @@
       "start": "Sep 2022",
       "end": "Aug 2023",
       "bullets": [
-        "Built end-to-end automation frameworks using Selenium, Cypress, and Appium.",
-        "Reduced regression testing time by 30% by integrating automated test suites into GitHub Actions and LambdaTest."
+        "Developed Appium/TestNG mobile test suites with LambdaTest and integrated them into GitHub Actions; expanded the existing Cypress web test suite.",
+        "Performed manual testing against functional and non-functional requirements, collaborating with developers to document and resolve defects.",
+        "Reduced regression testing time by 30% through automated testing integrated into CI/CD."
+      ]
+    },
+    {
+      "title": "QA Engineer",
+      "company": "Risevest",
+      "start": "Jan 2022",
+      "end": "Feb 2024",
+      "bullets": [
+        "Performed manual testing of the web and mobile apps for Risevest, a digital investment platform offering dollar-denominated portfolios across stocks, real estate, and fixed income.",
+        "Developed mobile test automation using WebDriver, WebdriverIO, and Detox."
       ]
     },
     {
@@ -36,54 +51,110 @@
       "start": "Mar 2021",
       "end": "Aug 2022",
       "bullets": [
-        "Conducted manual and automated testing for healthcare software, achieving 95% test coverage.",
-        "Executed API testing using Postman and automated scripts with JavaScript."
+        "Executed and refined manual test cases for healthcare applications; investigated defects with developers and maintained test plans, cases, and documentation in Agile teams.",
+        "Built and maintained Python/Pytest/unittest and Cypress automation suites with Allure reporting and GitHub Actions integration.",
+        "Performed API testing with Postman and automated API checks in JavaScript; used Jira and Xray for test management and defect tracking."
       ]
     },
     {
-      "title": "Quality Assurance Engineer & Intern",
+      "title": "Quality Assurance Engineer",
       "company": "eHealth Africa",
-      "start": "Sep 2018",
+      "start": "Apr 2019",
       "end": "Mar 2021",
       "bullets": [
-        "Maintained automated test scripts using Jest, Chai, Webdriver, and Docker in Agile Scrum environments."
+        "Performed manual and automated testing for healthcare software, including Lomis Deliver web and mobile applications; defined testing requirements with developers and project managers.",
+        "Built test automation with Jest, Chai, Selenium, and Docker, integrating suites into Travis CI.",
+        "Tracked defects through resolution and maintained test plans, test cases, and reports."
+      ]
+    },
+    {
+      "title": "Software QA Intern",
+      "company": "eHealth Africa",
+      "start": "Sep 2018",
+      "end": "Mar 2019",
+      "bullets": [
+        "Executed manual tests, reported defects, and supported automation using JavaScript, Java, and Python; tested APIs with Postman."
       ]
     }
   ],
   "skills": [
     {
-      "group": "Automation & Tools",
-      "items": ["Playwright", "Cypress", "Selenium", "Appium", "WebdriverIO", "Postman", "Gherkin", "Maestro"]
+      "group": "Manual testing",
+      "items": [
+        "Exploratory",
+        "regression",
+        "functional",
+        "integration",
+        "end-to-end",
+        "negative and boundary testing",
+        "role-based access control",
+        "test planning",
+        "defect investigation"
+      ]
     },
     {
-      "group": "Languages & APIs",
-      "items": ["JavaScript", "Java", "REST APIs", "REST Assured"]
+      "group": "Automation",
+      "items": [
+        "Playwright",
+        "Cypress",
+        "Appium",
+        "Maestro",
+        "Selenium",
+        "WebdriverIO",
+        "Detox",
+        "Pytest",
+        "TestNG",
+        "page objects",
+        "fixtures",
+        "parallel execution",
+        "WireMock"
+      ]
     },
     {
-      "group": "Performance & DevOps",
-      "items": ["JMeter", "k6", "GitHub Actions", "Docker"]
+      "group": "Languages and APIs",
+      "items": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "REST API testing",
+        "Postman",
+        "SQL"
+      ]
     },
     {
-      "group": "Test Management & DBs",
-      "items": ["Jira", "Xray", "SQL", "NoSQL", "Google Sheets", "Agile (Scrum)"]
+      "group": "Delivery and diagnostics",
+      "items": [
+        "GitHub Actions",
+        "Travis CI",
+        "Docker",
+        "LambdaTest",
+        "Git",
+        "Jira",
+        "Xray",
+        "Allure",
+        "browser DevTools",
+        "logs",
+        "k6 performance testing"
+      ]
+    },
+    {
+      "group": "AI and collaboration",
+      "items": [
+        "AI-assisted test generation and refinement",
+        "spec-driven development",
+        "Agile/Scrum",
+        "QA mentoring"
+      ]
     }
   ],
   "certifications": [
     {
       "title": "ASTQB / ISTQB (USA): Certified Tester Foundation Level (CTFL)",
       "credential": "Credential ID: 20-CTFL-00777-USA"
-    },
-    {
-      "title": "k6 Performance Testing",
-      "credential": ""
     }
   ],
   "education": [
-    {
-      "degree": "Master in Cyber Security",
-      "school": "EC-Council University",
-      "years": "2026"
-    },
     {
       "degree": "Bachelor's Degree in Computer Science",
       "school": "Ahmadu Bello University",
@@ -95,5 +166,13 @@
       "years": "2011-2013"
     }
   ],
-  "domains": ["Healthcare", "Education (EdTech)", "Financial Technology (FinTech)"]
+  "domains": [
+    "Healthcare",
+    "Education (EdTech)",
+    "Financial Technology (FinTech)"
+  ],
+  "download": {
+    "path": "Bello_Abdulrafiu_QA_Engineer_CV_2026.pdf",
+    "filename": "Bello_Abdulrafiu_QA_Engineer_CV_2026.pdf"
+  }
 }
